@@ -1,0 +1,37 @@
+# Binaries and build artifacts
+bin/
+dist/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency/vendor (optional; uncomment if needed)
+# vendor/
+
+# Coverage and profiling
+coverage.out
+coverage.html
+*.coverprofile
+cpu.prof
+mem.prof
+
+# Logs and temp files
+*.log
+.tmp/
+tmp/
+
+# IDE/editor
+.DS_Store
+.idea/
+*.swp
+*.swo
+.vscode/
