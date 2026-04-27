@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+
 /*
 学习内容：
 包、模块、变量、常量、函数、控制流
@@ -13,10 +14,10 @@ Go 项目的最小结构
 
 */
 
-func test1(){
+func test1() {
 	fmt.Println("test")
 }
 
-func main(){
+func main() {
 	test1()
 }
